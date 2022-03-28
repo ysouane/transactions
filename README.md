@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Technical Test - Smile&pay
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Site avec 2 vues permettant via la première de visualiser/créer/editer/supprimer/trier/rechercher des transactions via un tableau, puis via la seconde de visualiser le total des transactions débiteur/créditeur avec la balance comptable.
 
-## Available Scripts
+Le site est responsive et utilise React coté front end avec les librairies suivante : 
+```
+React Router, Material table, React Hook Form, Bootstrap, Hightcharts
+```
 
-In the project directory, you can run:
+## Version en ligne du site
+Une version en ligne du site est disponible à cette adresse :
+
+**[Smile&Pay - technical test](https://technical-test-tooltip-fip2jgbmi-ysouane.vercel.app/)**
+
+## Installation du projet
+Cloner ou télécharger le répo, ensuite via le terminal entrer la commande suivante à partir de la racine du dossier du projet : 
+
+### `npm install`
+
+## Lancement du site
+
+Via le terminal entrer la commande suivante a la racine du dossier du  projet: 
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ou lancer via l'IDE le script :
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![image](https://user-images.githubusercontent.com/97733746/160355986-e26c2347-b79c-475e-a585-494e292c2d5d.png)
 
-### `npm test`
+Patienter que le compilation se termine, le fenetre du site doit s'ouvrir automatiquement.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Sinon utiliser l'url : [http://localhost:3000](http://localhost:3000) pour y accéder via le navigateur
 
-### `npm run build`
+## Fonctionnement du site
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### La vue transaction
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![image](https://user-images.githubusercontent.com/97733746/160356365-f68463bb-2902-42dc-9ea0-bde38df4bd41.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1 - Ajouter une transaction
 
-### `npm run eject`
+![image](https://user-images.githubusercontent.com/97733746/160356417-89f430f3-b3ee-4ea0-8c9f-171b9fc0f92b.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2 - Editer une transaction existante
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![image](https://user-images.githubusercontent.com/97733746/160356442-cafc1851-9cfc-454c-9e12-6358e5523b1c.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3 - Supprimer une transaction existante
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![image](https://user-images.githubusercontent.com/97733746/160356519-f2b36259-e923-4800-bfdd-9882e98245ba.png)
 
-## Learn More
+4 - Trier par colonne
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![image](https://user-images.githubusercontent.com/97733746/160356566-795659e0-9589-41d6-bb6a-5088c384a984.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5 - Rechercher une transaction existante
 
-### Code Splitting
+![image](https://user-images.githubusercontent.com/97733746/160356584-88191283-b45a-4bd7-a97c-cbc7e89536e3.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Une pagination est également présente 
 
-### Analyzing the Bundle Size
+![image](https://user-images.githubusercontent.com/97733746/160356694-6cd7b4cf-ea9e-4da6-a2be-3218b45932d8.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+On peut également choisir d'afficher plus de 5 transactions :
 
-### Making a Progressive Web App
+![image](https://user-images.githubusercontent.com/97733746/160356776-efb15b6f-0893-4573-a856-b87809e6e482.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### La vue recapitulatif
 
-### Advanced Configuration
+![image](https://user-images.githubusercontent.com/97733746/160357030-c64d526a-f849-46e6-8c20-cabfc269d182.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Elle affiche dynamiquement les totaux débit/crédit avec le solde comptable.

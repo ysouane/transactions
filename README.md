@@ -7,8 +7,8 @@ Le site est responsive et utilise React coté front end avec les librairies suiv
 React Router, Material table, React Hook Form, Bootstrap, Hightcharts
 ```
 
-## Version en ligne du site
-Une version en ligne du site est disponible à cette adresse :
+## Demo du site en ligne
+Une démo en ligne du site est visible à cette adresse :
 
 **[Smile&Pay - technical test](https://transactions-pi.vercel.app/)**
 

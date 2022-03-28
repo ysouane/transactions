@@ -1,13 +1,47 @@
-body {
+/* ---------------------------------*\
+    Reset css
+\*--------------------------------- */
+
+html,
+body,
+div,
+span,
+h1,
+strong,
+a,
+ul,
+li,
+p,
+form,
+footer,
+header {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0 default;
+  border: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  font-size: 3rem;
+}
+
+h1 {
+  color: #2b5274;
+}
+
+ol,
+ul {
+  list-style: none;
+  padding: 0 !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+/* ---------------------------------*\
+    Update bootstrap
+\*--------------------------------- */
+
+:root {
+  --bs-body-bg: #fde300 !important;
 }

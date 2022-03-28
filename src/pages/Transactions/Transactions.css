@@ -1,0 +1,16 @@
+.TransactionsForm {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.TransactionsForm__required,
+.TransactionsForm__error {
+  color: red;
+  font-weight: 500;
+}
+
+p::before {
+  display: inline;
+  content: "⚠ ";
+}

@@ -1,0 +1,30 @@
+.header {
+  margin-bottom: 1rem;
+  width: 100%;
+  border-bottom: 2px solid #000;
+  font-size: 13px;
+}
+
+.header__logo img {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+.header__nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.header__nav a {
+  color: #162761;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #f43e3e !important;
+}

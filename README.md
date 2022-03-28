@@ -10,7 +10,7 @@ React Router, Material table, React Hook Form, Bootstrap, Hightcharts
 ## Version en ligne du site
 Une version en ligne du site est disponible à cette adresse :
 
-**[Smile&Pay - technical test](https://technical-test-tooltip-fip2jgbmi-ysouane.vercel.app/)**
+**[Smile&Pay - technical test](https://transactions-pi.vercel.app/)**
 
 ## Installation du projet
 Cloner ou télécharger le répo, ensuite via le terminal entrer la commande suivante à partir de la racine du dossier du projet : 
